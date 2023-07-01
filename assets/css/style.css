@@ -621,6 +621,7 @@ section {
   transition: all 0.3s ease-in-out;
   border-radius: 15px;
   text-align: center;
+  background-color: #212529;
   border-bottom: 5px solid #838282;
 }
 
