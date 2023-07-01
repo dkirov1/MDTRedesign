@@ -626,41 +626,49 @@ section {
 }
 
 .distribution{
-  background-image: url(/random1.JPG);
+  background-image: url(/random1.JPG); */
+  background-color: #212529;
   background-size:cover;
 }
 
 .shredding{
-  background-image: url(/blackRegrind.JPG);
+  /* background-image: url(/blackRegrind.JPG); */
+  background-color: #212529;
   background-size: cover;
 }
 
 .extruding{
-  background-image: url(/random2.JPG);
+  /* background-image: url(/random2.JPG); */ 
+  background-color: #212529;
   background-size: cover;
 }
 
 .blending{
-  background-image: url(/random3.JPG);
+  /* background-image: url(/random3.JPG); */
+  background-color: #212529;
   background-size: cover;
 }
 
 .closedLoop{
-  background-image: url(/random4.JPG);
+  /* background-image: url(/random4.JPG); */
+  background-color: #212529;
   background-size: cover;
 }
 
 .compounding{
-  background-image: url(/random7.JPG);
+  /* background-image: url(/random7.JPG); */
+  background-color: #212529;
   background-size: cover; 
 }
 .selling{
-  background-image: url(/random6.JPG);
+  /* background-image: url(/random6.JPG); */
+  background-color: #212529;
   background-size: cover;
 }
 
 .logistics{
-  background-image: url(/logistics.jpg);
+  /* background-image: url(/logistics.jpg); */
+  background-color: #212529;
   background-size: cover;
 }
 
