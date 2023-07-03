@@ -1,6 +1,4 @@
-Thanks for downloading this template!
+Welcome to the site for Material Difference Technologies. 
 
-Template Name: Ninestars
-Template URL: https://bootstrapmade.com/ninestars-free-bootstrap-3-theme-for-creative/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+If you like this site, inquiries can be sent to: dkirov1@gmail.com
+

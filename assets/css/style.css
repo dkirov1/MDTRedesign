@@ -106,8 +106,8 @@ h6,
 
 #header .logo img {
   padding: 0;
-  margin: 0;
-  max-height: 65px;
+  margin: -100px;
+  max-height: 100px;
   border-radius: 15px;
 }
 
@@ -161,7 +161,7 @@ h6,
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #ffffff;
+  color: #000000;
   font-weight: bold;
   font-size: 1.4em;
   text-shadow:#000000;
@@ -169,7 +169,7 @@ h6,
 
 .navbar .getstarted,
 .navbar .getstarted:focus {
-  background: #8b0000;
+  background: #000000;
   color: #fff;
   padding: 10px 25px;
   margin-left: 30px;
@@ -178,8 +178,9 @@ h6,
 
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
-  color: #fff;
-  background: #8a2720;
+  color: #000000;
+  background: #ffffff;
+  border: solid, l
 }
 
 .navbar .dropdown ul {
@@ -749,7 +750,7 @@ section {
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(122, 105, 96, 0.6);
+  background: rgba(0, 0, 0, 0.16);
   position: absolute;
   left: 100%;
   right: 0;
@@ -868,7 +869,7 @@ section {
 
 .portfolio-details .portfolio-info {
   padding: 30px;
-  box-shadow: 0px 0 30px rgba(122, 105, 96, 0.08);
+  box-shadow: 0px 0 30px rgba(0, 0, 0, 0.2);
 }
 
 .portfolio-details .portfolio-info h3 {
@@ -903,71 +904,6 @@ section {
   padding: 0;
 }
 
-/*--------------------------------------------------------------
-# F.A.Q
---------------------------------------------------------------*/
-.faq {
-  padding: 50px 0;
-}
-
-.faq .faq-list {
-  padding: 0;
-  list-style: none;
-}
-
-.faq .faq-list li {
-  border-bottom: 1px solid #eae7e5;
-  margin-bottom: 20px;
-  padding-bottom: 10px;
-}
-
-.faq .faq-list .question {
-  display: block;
-  position: relative;
-  font-family: #8b0000;
-  font-size: 18px;
-  line-height: 24px;
-  font-weight: 400;
-  font-weight: 600;
-  padding-left: 25px;
-  cursor: pointer;
-  color: #8a2720;
-  transition: 0.3s;
-}
-
-.faq .faq-list i {
-  font-size: 16px;
-  position: absolute;
-  left: 0;
-  top: -2px;
-}
-
-.faq .faq-list p {
-  margin-bottom: 0;
-  padding: 10px 0 0 25px;
-}
-
-.faq .faq-list .icon-show {
-  display: none;
-}
-
-.faq .faq-list .collapsed {
-  color: #343a40;
-}
-
-.faq .faq-list .collapsed:hover {
-  color: #8b0000;
-}
-
-.faq .faq-list .collapsed .icon-show {
-  display: inline-block;
-  transition: 0.6s;
-}
-
-.faq .faq-list .collapsed .icon-close {
-  display: none;
-  transition: 0.6s;
-}
 
 /*--------------------------------------------------------------
 # Team
@@ -983,6 +919,7 @@ section {
   background: #343a40;
   position: relative;
   overflow: hidden;
+  max-width: 300px;
 }
 
 .team .member .member-info {
@@ -997,7 +934,7 @@ section {
 
 .team .member .member-info-content {
   position: absolute;
-  left: 50px;
+  left: 0px;
   right: 0;
   bottom: 0;
   transition: bottom 0.4s;
@@ -1010,34 +947,22 @@ section {
   color: #fff;
 }
 
-.team .member .member-info-content span {
+.team .member .member-info-content span{
   font-style: italic;
   display: block;
-  font-size: 13px;
+  font-size: 18px;
   color: #fff;
+  margin-bottom: 10px;
 }
 
-.team .member .social {
-  position: absolute;
-  left: -50px;
-  top: 0;
-  bottom: 0;
-  width: 50px;
-  transition: left ease-in-out 0.3s;
-  background: rgba(78, 64, 57, 0.6);
-  text-align: center;
-}
-
-.team .member .social a {
-  transition: color 0.3s;
+.team .member .member-info-content p {
+  font-style: italic;
   display: block;
+  font-size: 12px;
   color: #fff;
-  margin-top: 15px;
+  margin-bottom: 10px;
 }
 
-.team .member .social a:hover {
-  color: #8b0000;
-}
 
 .team .member .social i {
   font-size: 18px;
@@ -1045,7 +970,7 @@ section {
 }
 
 .team .member:hover .member-info {
-  background: linear-gradient(0deg, rgba(78, 64, 57, 0.95) 0%, rgba(78, 64, 57, 0.95) 15%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.95) 0%, rgba(40, 21, 21, 0.95) 15%, rgba(255, 255, 255, 0) 100%);
   opacity: 1;
   transition: 0.4s;
 }
@@ -1054,12 +979,6 @@ section {
   bottom: 30px;
   transition: bottom 0.4s;
 }
-
-.team .member:hover .social {
-  left: 0;
-  transition: left ease-in-out 0.3s;
-}
-
 
 /*--------------------------------------------------------------
 # Contact Us
@@ -1338,7 +1257,7 @@ section {
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
   color: #9e0101;
-  font-size: 18px;
+  font-size: 22px;
   line-height: 1;
 }
 
@@ -1365,19 +1284,20 @@ section {
 }
 
 #footer .footer-top .social-links a {
-  font-size: 18px;
+  font-size: 32px;
   display: inline-block;
   background: #8b0000;
-  color: #fff;
+  color: #000000;
   line-height: 1;
-  padding: 8px 0;
+  padding: 12px 0;
   margin-right: 4px;
-  border-radius: 50%;
+  border-radius: 40%;
   text-align: center;
-  width: 36px;
-  height: 36px;
+  width: 60px;
+  height: 60px;
   transition: 0.3s;
 }
+
 
 #footer .footer-top .social-links a:hover {
   background: #9e0101;
