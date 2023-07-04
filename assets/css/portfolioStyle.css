@@ -1,0 +1,24 @@
+.nav-pills .nav-link{
+    color:black;
+    border: solid, gray, 2px;
+}
+
+.nav-pills .nav-link.active{
+    background-color: #6a6a6a;
+    color: rgb(255, 255, 255);
+}
+
+/* #v-pills-tab{
+    margin-left: 100px;
+} */
+
+h4{
+    text-align: center;
+    text-emphasis-style: bolder;
+    text-decoration: underline;
+}
+
+div.firstTable {
+background-color: lightgray;
+margin: 0px 20px 0px 20px;
+}

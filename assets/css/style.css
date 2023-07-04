@@ -9,13 +9,14 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #212529;
 }
 
 a {
-  color: #ffffff;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -85,8 +86,10 @@ h6,
   z-index: 997;
   transition: all 0.5s;
   background:#8b0000;
+  margin-left: -100px;
   /* background-image: url("/blackRegrind-overlay.jpg"); */
-  background-size: contain;
+  /* 
+   */
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -106,9 +109,10 @@ h6,
 
 #header .logo img {
   padding: 0;
-  margin: -100px;
-  max-height: 100px;
+  margin: 0px;
   border-radius: 15px;
+  height: 60px;
+  object-fit:fill;
 }
 
 #main {
@@ -548,6 +552,7 @@ section {
 
 .breadcrumbs ol li+li {
   padding-left: 10px;
+  color:#000000;
 }
 
 .breadcrumbs ol li+li::before {
@@ -981,6 +986,14 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Locations
+--------------------------------------------------------------*/
+#about .about .data-aos h3{
+  text-align: center;
+}
+
+
+/*--------------------------------------------------------------
 # Contact Us
 --------------------------------------------------------------*/
 .contact .info {
@@ -1286,7 +1299,7 @@ section {
 #footer .footer-top .social-links a {
   font-size: 32px;
   display: inline-block;
-  background: #8b0000;
+  background: #e2e2e2;
   color: #000000;
   line-height: 1;
   padding: 12px 0;
@@ -1300,7 +1313,7 @@ section {
 
 
 #footer .footer-top .social-links a:hover {
-  background: #9e0101;
+  background: #fde5e5;
   color: #fff;
   text-decoration: none;
 }
