@@ -516,7 +516,7 @@ section {
   color: #000000;
 }
 
-.section-title p::after {
+.section-title p::after,  {
   content: "";
   position: absolute;
   display: block;
@@ -575,9 +575,6 @@ section {
     display: inline-block;
   }
 
-  .breadcrumbs ol li+a {
-    display: inline-block;
-  }
 }
 
 /*--------------------------------------------------------------
@@ -973,9 +970,10 @@ section {
 }
 
 
-.team .member .social i {
-  font-size: 18px;
+.team .member i {
+  font-size: 36px;
   margin: 0 2px;
+  color: white;
 }
 
 .team .member:hover .member-info {
