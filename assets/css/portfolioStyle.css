@@ -1,24 +1,80 @@
+
 .nav-pills .nav-link{
     color:black;
-    border: solid, gray, 2px;
+    font-weight:700;
+    padding: 10px 25px 10px 25px;
+    text-align: center;
+    font-size: larger;
 }
 
 .nav-pills .nav-link.active{
-    background-color: #6a6a6a;
-    color: rgb(255, 255, 255);
+    background-color: #8b0000;
+    color: rgb(255, 255, 255);  
+    font-weight: 800;
+    text-align: center;
+    padding: 10px 25px 10px 25px;
+    font-size:larger;  
+    border: solid 2px #8b0000;
 }
 
-/* #v-pills-tab{
-    margin-left: 100px;
-} */
+
+#v-pills-tab{
+
+margin-left: 0px;
+}
 
 h4{
     text-align: center;
     text-emphasis-style: bolder;
     text-decoration: underline;
+    padding-bottom: 50px;
 }
 
-div.firstTable {
-background-color: lightgray;
-margin: 0px 20px 0px 20px;
+#firstTable {
+background-color: rgb(232, 231, 231);
+margin: 70px 200px 0px 200px;
+padding-top: 25px;
+padding-bottom: 0px;
+border-radius: 50px;
 }
+
+#firstTable h4::before,  {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 60px;
+    height: 2px;
+    background: #8b0000;
+    bottom: 0;
+    left: calc(50% - 30px);
+  }
+  
+  .nav-pills .nav-link.active.arrow-pointer {
+    width: 250px;
+    height: 50px;
+    background: #8b0000;
+    position: relative;
+  
+
+    &:before {
+      content: '';
+      position: absolute;
+      right: -25px;
+      bottom: 0;
+      width: 0;
+      height: 0;
+      border-left: 25px solid #8b0000;
+      border-top: 22px solid transparent;
+      border-bottom: 25px solid transparent;
+    }
+  }
+
+  #v-pills-tabContent{
+    margin-left: 50px;
+
+  }
+
+  #footer h4{
+    text-align: left;
+    text-decoration: none;
+  }

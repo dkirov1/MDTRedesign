@@ -574,6 +574,10 @@ section {
   .breadcrumbs ol li {
     display: inline-block;
   }
+
+  .breadcrumbs ol li+a {
+    display: inline-block;
+  }
 }
 
 /*--------------------------------------------------------------
