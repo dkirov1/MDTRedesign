@@ -976,6 +976,14 @@ section {
   color: white;
 }
 
+
+.team .member i:hover {
+  font-size: 36px;
+  margin: 0 2px;
+  color: #8b0000;
+
+}
+
 .team .member:hover .member-info {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.95) 0%, rgba(40, 21, 21, 0.95) 15%, rgba(255, 255, 255, 0) 100%);
   opacity: 1;
