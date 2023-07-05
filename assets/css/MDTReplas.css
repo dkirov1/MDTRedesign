@@ -1,0 +1,16 @@
+#about .container img{
+    max-width: 600px;
+}
+
+#about .container h1{
+    text-decoration: none;
+    text-align: left;
+    padding-bottom:50px;
+    font-weight: 700;
+}
+
+
+#about .container h6{
+    text-decoration: none;
+    text-align: left;
+}

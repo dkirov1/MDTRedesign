@@ -50,8 +50,8 @@
           <li class="dropdown"><a class="nav-link scrollto" href="#about">Locations<i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">MDT Headquarters, Florida</a></li>
-              <li><a href="#">MDT Replas, Texas</a></li>
-              <li><a href="#">MDT Bromley, North Carolina</a></li>
+              <li><a href="MDTReplas.html">MDT Replas, Texas</a></li>
+              <li><a href="MDTBromley.html">MDT Bromley, North Carolina</a></li>
             </ul>
           </li>
           <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
@@ -454,11 +454,13 @@
                     <i class="bi-geo-alt-fill" style="color: rgb(2, 136,209)"></i>
                     <h4>MDT Replas</h4>
                     <p>6754 Kirbyville St, Houston, TX 77033</p>
+                    <a href="MDTReplas.html">Learn More</a>
                   </div>
                   <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
                     <i class="bi-geo-alt-fill" style="color:rgb(156, 39, 176)"></i>
                     <h4>MDT Bromley</h4>
                     <p>282 Cane Creek Rd, Fletcher, NC 28732</p>
+                    <a href="MDTBromley.html">Learn More</a>
                   </div>
                   <!-- <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
                     <i class="bi-geo-alt-fill"></i>
@@ -525,10 +527,22 @@
                 <label for="name">Subject</label>
                 <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
               </div>
+              <div class="form-group mt-3" style="padding-top:10px;">
+                <label for="Material">What materials are you interested in?
+                  <select name="Select Material">
+                    <option value=Repro name="repro">Repro</option>
+                    <option value=Regrind name="car">Regrind</option>
+                    <option value=Widespec name="car">Widespec</option>
+                    <option value=Prime name="car">Prime</option>
+                    <option value=Parts name="car">Parts</option>
+                  </select>
+                </label>
+              </div>
               <div class="form-group mt-3">
                 <label for="name">Message</label>
                 <textarea class="form-control" name="message" rows="10" required></textarea>
               </div>
+
               <div class="my-3">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
@@ -610,7 +624,7 @@
       <div class="copyright">
         &#174; Registered <strong><span>Material Difference Technologies</span></strong>. All Rights Reserved.
       </div>
-      <p style="text-align:right;">1501 Sarasota Center Blvd, Sarasota, FL 34240</p>
+      <p style="text-align:right;">1401 Manatee Ave W #1015 Bradenton, FL 34205</p>
         
       </div>
     </div>
@@ -625,6 +639,9 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCOf4LGHbUTf9j0obd44i2Q_wlTZZyG9AE&callback=initMap">
+</script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
