@@ -1,6 +1,6 @@
 
 .nav-pills .nav-link{
-    color:black;
+    color:rgb(255, 255, 255);
     font-weight:700;
     padding: 10px 25px 10px 25px;
     text-align: center;
@@ -31,7 +31,7 @@ h4{
 }
 
 #firstTable {
-background-color: rgb(232, 231, 231);
+background-color: #101010;
 margin: 70px 200px 0px 200px;
 padding-top: 25px;
 padding-bottom: 0px;
