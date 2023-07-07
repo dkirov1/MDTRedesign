@@ -78,6 +78,52 @@ h6,
 }
 
 /*--------------------------------------------------------------
+# Top Bar
+--------------------------------------------------------------*/
+#topbar {
+  height: 90px;
+  font-size: 14px;
+  transition: all 0.5s;
+  color: #ffffff;
+  padding: 0;
+  background-color: rgb(255, 255, 255);
+}
+
+
+#topbar .contact-info i {
+  font-style: normal;
+  color: #fff;
+}
+
+#topbar .contact-info i a,
+#topbar .contact-info i span {
+  padding-left: 5px;
+  color: #fff;
+}
+
+#topbar .contact-info i a {
+  line-height: 0;
+  transition: 0.3s;
+  transition: 0.3s;
+}
+
+#topbar .contact-info i a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+#topbar .social-links a {
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 0;
+  transition: 0.3s;
+  margin-left: 20px;
+}
+
+#topbar .social-links a:hover {
+  color: white;
+}
+
+/*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 #header {
@@ -90,8 +136,14 @@ h6,
   /* background-image: url("/blackRegrind-overlay.jpg"); */
   /* 
    */
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1); */
 }
+
+
+#header.fixed-top {
+  height: 70px;
+}
+
 
 #header .logo h1 {
   font-size: 30px;
@@ -118,6 +170,11 @@ h6,
 #main {
   margin-top: 72px;
 }
+
+.scrolled-offset {
+  margin-top: 70px;
+}
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -255,7 +312,7 @@ h6,
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #0b0b0b;
+  color: #ffffff;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -275,6 +332,10 @@ h6,
   .navbar ul {
     display: none;
   }
+
+.header .logo img{
+  padding-left:100px;
+}  
 }
 
 .navbar-mobile {
@@ -369,7 +430,7 @@ h6,
 }
 
 .carousel-item{
-  height: 100vh;
+  height: 78vh;
 
 }
 
