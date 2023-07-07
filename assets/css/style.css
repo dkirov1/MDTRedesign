@@ -86,7 +86,7 @@ h6,
   transition: all 0.5s;
   color: #ffffff;
   padding: 0;
-  background-color: #8b0000;
+  background-image: linear-gradient(to bottom,black,#8b0000);
 }
 
 
