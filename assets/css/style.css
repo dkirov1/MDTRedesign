@@ -87,13 +87,13 @@ h6,
   color: #ffffff;
   padding: 0;
   background-color: #000000;
-  background-image: url("/Topbar\ prototype.png");
+  background-image: url("\Topbar prototype.png");
   background-size: cover;
 }
 
 @media (max-width: 1100px)  {
   #topbar{
-  background-image: url("/Topbar\ medium\ version.png");
+  background-image: url("\Topbar medium version.png");
   background-size: cover;
   }
 }
