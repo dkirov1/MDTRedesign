@@ -86,7 +86,7 @@ h6,
   transition: all 0.5s;
   color: #ffffff;
   padding: 0;
-  background-color: #000000;
+  background: linear-gradient( #000000, #8b0000);
   background-image: url("/assets/img/Topbar1.png");
   background-size: cover;
 }
@@ -97,7 +97,7 @@ h6,
   background-size: cover;
   }
 }
-
+/* 
 #topbar .contact-info i {
   font-style: normal;
   color: #fff;
@@ -129,7 +129,7 @@ h6,
 
 #topbar .social-links a:hover {
   color: white;
-}
+} */
 
 /*--------------------------------------------------------------
 # Header
