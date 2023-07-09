@@ -86,9 +86,17 @@ h6,
   transition: all 0.5s;
   color: #ffffff;
   padding: 0;
-  background-image: linear-gradient(to bottom,black,#8b0000);
+  background-color: #000000;
+  background-image: url("/Topbar\ prototype.png");
+  background-size: cover;
 }
 
+@media (max-width: 1100px)  {
+  #topbar{
+  background-image: url("/Topbar\ medium\ version.png");
+  background-size: cover;
+  }
+}
 
 #topbar .contact-info i {
   font-style: normal;
@@ -161,10 +169,16 @@ h6,
 
 #header .logo img {
   padding: 0;
-  margin: 0px;
+  margin-left: 0px;
   border-radius: 15px;
   height: 60px;
-  object-fit:fill;
+  object-fit:contain;
+}
+
+@media (max-width: 700px){
+#header .logo img{
+  margin-left: 100px;
+}
 }
 
 #main {
@@ -546,7 +560,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f8f3ef;
+  background-color: #ffffff;
 }
 
 .section-bg2 {
@@ -774,6 +788,10 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+.portfolio{
+  background-color: #f8f3ef;
+}
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -1055,6 +1073,14 @@ section {
 .team .member:hover .member-info-content {
   bottom: 30px;
   transition: bottom 0.4s;
+}
+
+.team .member-info-content a{
+  color: white;
+}
+
+.team .member-info-content a:hover{
+  color: #8b0000;
 }
 
 /*--------------------------------------------------------------
