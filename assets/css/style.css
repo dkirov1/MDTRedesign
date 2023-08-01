@@ -433,7 +433,7 @@ h6,
 # Carousel Section
 --------------------------------------------------------------*/
 .carousel-text{
-  text-shadow: 1px 1px 2px rgb(18, 17, 17)
+  text-shadow: 1px 1px 2px black, 0 0 .3em black;
 }
 
 .carousel-item{
@@ -750,12 +750,13 @@ section {
 .services .icon-box:hover {
   transform: translateY(-7px);
   border-color: #8b0000;
+  cursor: pointer;
 }
 
 .services .icon i {
   font-size: 48px;
   line-height: 1;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
   color: #8b0000;
 }
 
