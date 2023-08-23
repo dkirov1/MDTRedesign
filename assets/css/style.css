@@ -433,11 +433,12 @@ h6,
 # Carousel Section
 --------------------------------------------------------------*/
 .carousel-text{
-  text-shadow: 1px 1px 2px black, 0 0 .3em black;
+  text-shadow: 1px 1px 2px black, 0 0 .7em black;
+  margin:0px;
 }
 
 .carousel-item{
-  height: 78vh;
+  height: 80vh;
 
 }
 
@@ -548,7 +549,7 @@ h6,
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0px;
+  padding: 40px 0px 40px 0px;
   overflow: hidden;
 }
 
@@ -687,97 +688,36 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-.services .icon-box {
-  padding: 60px;
+
+#items {
+  height: 100%;
+  width:100%
+}
+.item {
+  padding: 40px;
   position: relative;
-  overflow: hidden;
-  margin: 0 0 40px 0;
+  margin: 15px 15px 15px 15px;
   box-shadow: 10px 10px 29px 0 rgba(14, 14, 14, 0.1);
-  transition: all 0.3s ease-in-out;
+  transition: all 500ms ease-in-out;
   border-radius: 15px;
-  text-align: center;
+  text-align: left;
   background-color: #212529;
-  border-bottom: 5px solid #838282;
+  border-bottom: 5px solid #8b0000;
+  color:white; 
+  width:25%;
+  border-right:solid 5px #8b0000;
+  float:left;
+  height:100px;
+  overflow:hidden;
 }
 
-.distribution{
-  background-image: url(/random1.JPG); */
-  background-color: #212529;
-  background-size:cover;
-}
-
-.shredding{
-  /* background-image: url(/blackRegrind.JPG); */
-  background-color: #212529;
-  background-size: cover;
-}
-
-.extruding{
-  /* background-image: url(/random2.JPG); */ 
-  background-color: #212529;
-  background-size: cover;
-}
-
-.blending{
-  /* background-image: url(/random3.JPG); */
-  background-color: #212529;
-  background-size: cover;
-}
-
-.closedLoop{
-  /* background-image: url(/random4.JPG); */
-  background-color: #212529;
-  background-size: cover;
-}
-
-.compounding{
-  /* background-image: url(/random7.JPG); */
-  background-color: #212529;
-  background-size: cover; 
-}
-.selling{
-  /* background-image: url(/random6.JPG); */
-  background-color: #212529;
-  background-size: cover;
-}
-
-.logistics{
-  /* background-image: url(/logistics.jpg); */
-  background-color: #212529;
-  background-size: cover;
-}
-
-.services .icon-box:hover {
-  transform: translateY(-7px);
-  border-color: #8b0000;
-  cursor: pointer;
-}
-
-.services .icon i {
-  font-size: 48px;
-  line-height: 1;
-  margin-bottom: 25px;
-  color: #8b0000;
-}
-
-.services .title {
-  font-weight: 700;
-  margin-bottom: 15px;
-  font-size: 18px;
-}
-
-.services .title a {
-  color: white;
-  text-shadow: 1px 1px #000000;
-}
-
-.services .description {
-  font-size: 15px;
-  line-height: 28px;
-  margin-bottom: 0;
-  color: white;
-  text-shadow: 1px 1px #000000;
-}
+.item:hover{
+  height:fit-content;
+  width:37%;
+  transition: all 350ms ease-in-out;
+  margin-right: 40px;
+  padding: 20px;
+  }
 
 /*--------------------------------------------------------------
 # Portfolio
@@ -829,7 +769,7 @@ section {
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(0, 0, 0, 0.16);
+  background: rgba(0, 0, 0, 0.5);
   position: absolute;
   left: 100%;
   right: 0;
@@ -904,6 +844,10 @@ section {
   text-transform: uppercase;
 }
 
+.portfolio .portfolio-wrap .portfolio-info .resinlogo img {
+  max-height: 50px;
+  margin-bottom: 20px;
+}
 
 .portfolio .portfolio-wrap:hover::before {
   left: 0;
