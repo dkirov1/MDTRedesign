@@ -34,53 +34,46 @@
 <body>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top d-flex align-items-center">
+  <header id="header" class="d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
+      <div class="container d-flex justify-content-center justify-content-md-between">
+        <div class="logo">
+          <!-- <h1 class="text-light"><a href="index.html"><span>Ninestars</span></a></h1> -->
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <a href="index.html"><img src="./assets/img/markMDT-02.jpg" alt="" class="img-fluid"></a>
+        </div>
 
-      <div class="logo">
-        <!-- <h1 class="text-light"><a href="index.html"><span>Ninestars</span></a></h1>
-        Uncomment below if you prefer to use an image logo -->
-        <a href="index.html"><img src="markMDT-02.jpg" alt="" class="img-fluid"></a>
-      </div>
 
-      <nav id="navbar" class="navbar">
+      <nav id="navbar" class="navbar" style="z-index: 100;">
         <ul>
           <li><a class="nav-link scrollto active" href="index.html#carouselExampleCaptions">Home</a></li>
           <li><a class="nav-link scrollto" href="index.html#services">Services</a></li>
-          <li><a class="nav-link scrollto" href="index.html#portfolio">Products</a></li>
+          <li class="dropdown"><a class="nav-link scrollto" href="index.html#portfolio">Products<i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="TechResinPortfolio.html">MDT Tech Resin<sup>®</sup> Generic Prime resin</a></li>
+              <li><a href="WideSpecPortfolio.html">OG/Widespec</a></li>
+              <li><a href="PhoenixPortfolio.html">PhoenixPro PCR-PP Resin</a></li>
+              <li><a href="FDAPortfolio.html">PureOlene FDA food-grade Resin</a></li>
+              <li><a href="ReNewPortfolio.html">MDT ReNew PIR-PP</a></li>
+              <li><a href="OtherPortfolio.html">Other Resins</a></li>
+            </ul>
+          </li>
           <li><a class="nav-link scrollto" href="index.html#team">Team</a></li>
           <li class="dropdown"><a class="nav-link scrollto" href="index.html#about">Locations<i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">MDT Headquarters, Florida</a></li>
+              <li><a href="MDTheadquarters.html">MDT Headquarters, Florida</a></li>
               <li><a href="MDTReplas.html">MDT Replas, Texas</a></li>
               <li><a href="MDTBromley.html">MDT Bromley, North Carolina</a></li>
             </ul>
           </li>
-          <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li> -->
-          <li><a href="#">Careers</a></li>
+          <li><a href="Careers.html">Careers</a></li>
           <li><a class="getstarted scrollto" href="index.html#contact">Get Started</a></li>
         </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
+        <i class="bi bi-list mobile-nav-toggle" style="padding-left: 300px;"></i>
       </nav><!-- .navbar -->
-
     </div>
   </header><!-- End Header -->
+
 
   <main id="main">
 
@@ -292,17 +285,17 @@ Insert Resin Table -->
   </main><!-- End #main -->
 
  <!-- ======= Footer ======= -->
-<footer id="footer">
+ <footer id="footer">
 
   <div class="footer-top">
     <div class="container">
       <div class="row">
-        <div class="col-lg-3 col-md-6 footer-contact">
+        <div class="col-lg-3 col-md-6 footer-contact" style="text-align: left;">
           <br>
           <h4>Material Difference Technologies</h4>
         </div>
 
-        <div class="col-lg-3 col-md-6 footer-links">
+        <div class="col-lg-3 col-md-6 footer-links" style="text-align: left;">
           <p>    <br>          
             1401 Manatee Ave W #1015<br>
             Bradenton, FL 34205<br>
@@ -310,17 +303,14 @@ Insert Resin Table -->
             </p>
         </div>
 
-        <div class="col-lg-3 col-md-6 footer-links">
+        <div class="col-lg-3 col-md-6 footer-links" style="text-align: left;">
           <p><br>
           <strong>Phone:</strong> + 1 (888) 818-1283<br>
           </p>
         </div>
         <div class="col-lg-3 col-md-6 footer-links">
-          <div class="social-links mt-3">
-            <!-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-            <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-            <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-            <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a> -->
+          <div><br><h4>Follow us:</h4></div>
+          <div class="social-links mt-3"style="text-align: left;">
             <a href="https://www.linkedin.com/company/material-difference-technologies/" target="_blank" class="linkedin"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
               <path d="M27.26 27.271h-4.733v-7.427c0-1.771-0.037-4.047-2.475-4.047-2.468 0-2.844 1.921-2.844 3.916v7.557h-4.739v-15.271h4.552v2.083h0.061c0.636-1.203 2.183-2.468 4.491-2.468 4.801 0 5.692 3.161 5.692 7.271v8.385zM7.115 9.912c-1.527 0-2.751-1.235-2.751-2.756 0-1.516 1.229-2.749 2.751-2.749s2.755 1.233 2.755 2.749c0 1.521-1.233 2.756-2.755 2.756zM9.489 27.271h-4.749v-15.271h4.749zM29.636 0h-27.276c-1.303 0-2.36 1.031-2.36 2.307v27.387c0 1.276 1.057 2.307 2.36 2.307h27.271c1.301 0 2.369-1.031 2.369-2.307v-27.387c0-1.276-1.068-2.307-2.369-2.307z"/>
             </svg>
@@ -335,7 +325,7 @@ Insert Resin Table -->
     </div>
   </div>
 
-  <div class="container py-4">
+  <div class="container py-3">
     <div class="copyright">
       &#174; Registered <strong><span>Material Difference Technologies</span></strong>. All Rights Reserved.
     </div>

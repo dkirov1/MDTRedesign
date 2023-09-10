@@ -34,54 +34,46 @@
 <body>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top d-flex align-items-center">
+  <header id="header" class="d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
+      <div class="container d-flex justify-content-center justify-content-md-between">
+        <div class="logo">
+          <!-- <h1 class="text-light"><a href="index.html"><span>Ninestars</span></a></h1> -->
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <a href="index.html"><img src="./assets/img/markMDT-02.jpg" alt="" class="img-fluid"></a>
+        </div>
 
-      <div class="logo">
-        <!-- <h1 class="text-light"><a href="index.html"><span>Ninestars</span></a></h1>
-        Uncomment below if you prefer to use an image logo -->
-        <a href="index.html"><img src="markMDT-02.jpg" alt="" class="img-fluid"></a>
-      </div>
 
-      <nav id="navbar" class="navbar">
+      <nav id="navbar" class="navbar" style="z-index: 100;">
         <ul>
           <li><a class="nav-link scrollto active" href="index.html#carouselExampleCaptions">Home</a></li>
           <li><a class="nav-link scrollto" href="index.html#services">Services</a></li>
-          <li><a class="nav-link scrollto" href="index.html#portfolio">Products</a></li>
+          <li class="dropdown"><a class="nav-link scrollto" href="index.html#portfolio">Products<i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="TechResinPortfolio.html">MDT Tech Resin<sup>®</sup> Generic Prime resin</a></li>
+              <li><a href="WideSpecPortfolio.html">OG/Widespec</a></li>
+              <li><a href="PhoenixPortfolio.html">PhoenixPro PCR-PP Resin</a></li>
+              <li><a href="FDAPortfolio.html">PureOlene FDA food-grade Resin</a></li>
+              <li><a href="ReNewPortfolio.html">MDT ReNew PIR-PP</a></li>
+              <li><a href="OtherPortfolio.html">Other Resins</a></li>
+            </ul>
+          </li>
           <li><a class="nav-link scrollto" href="index.html#team">Team</a></li>
           <li class="dropdown"><a class="nav-link scrollto" href="index.html#about">Locations<i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">MDT Headquarters, Florida</a></li>
+              <li><a href="MDTheadquarters.html">MDT Headquarters, Florida</a></li>
               <li><a href="MDTReplas.html">MDT Replas, Texas</a></li>
               <li><a href="MDTBromley.html">MDT Bromley, North Carolina</a></li>
             </ul>
           </li>
-          <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li> -->
-          <li><a href="#">Careers</a></li>
-          <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
+          <li><a href="Careers.html">Careers</a></li>
           <li><a class="getstarted scrollto" href="index.html#contact">Get Started</a></li>
         </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
+        <i class="bi bi-list mobile-nav-toggle" style="padding-left: 300px;"></i>
       </nav><!-- .navbar -->
-
     </div>
   </header><!-- End Header -->
+
 
   <main id="main">
 
@@ -103,51 +95,47 @@
 
     <!-- ======= Portfolio Details Section ======= -->
     <section id="portfolio-details" class="portfolio-details">
-      <div class="container">
+      <div class="container" style="display:flex">
+        
+        <div class="col-lg-4">
+          <div class="portfolio-details-slider swiper">
+            <div class="swiper-wrapper align-items-center">
 
-        <div class="row gy-4">
-
-          <div class="col-lg-6">
-            <div class="portfolio-details-slider">
-              <div class="swiper-wrapper align-items-center">
-
-                <div>
-                  <img src="./assets/img/widespec.jpg" alt="">
-                </div>
-<!-- 
-                <div class="swiper-slide">
-                  <img src="mc2.jpg" alt="">
-                </div> -->
-<!-- 
-                <div class="swiper-slide">
-                  <img src="mc3.jpg" alt="">
-                </div> -->
-
+              <div class="swiper-slide">
+                <img src="./assets/img/FDAnatural.jpeg" alt="">
               </div>
-              <div class="swiper-pagination"></div>
-            </div>
-          </div>
 
-          <div class="col-lg-6">
+              <div class="swiper-slide">
+                <img src="./assets/img/FDAnatural2.jpeg" alt="">
+              </div>
+
+              <div class="swiper-slide">
+                <img src="./assets/img/FDAnatural3.jpeg" alt="">
+              </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+
+          <div class="col-lg-8" style="padding-left: 40px;">
             <div class="portfolio-info">
-              <h3>FDA Food-grade PIR-PP</h3>
+              <h3>PureOlene FDA Food-grade PIR-PP</h3>
               <ul style="padding-left: 20px;">
-                <li>Both our MDT Replas and MDT Bromley facilities offer FDA food-grade approved resin materials  </li>
-                <li>MDT has received verified PNC letters from the FDA’s Center for Food Safety and Applied Nutrition. </li>
-                <li>FDA PIR-PP resins are available as natural, white, and black pellets. </li>
-                <li>Use of MDT FDA grades are approved for food contact articles, up to 100% recycled content. </li>
-                <li>The FDA has approved these food grade resins for all Conditions of Use, A through J. </li>
-                <li>Approved additives are allowed in our FDA grade resin materials. </li>
+                <li>Both our MDT Replas and MDT Bromley facilities offer FDA food-grade approved resin materials. MDT has received verified PNC letters from the FDA’s Center for Food Safety and Applied Nutrition. </li>
+                <li style="font-weight:700">PureOlene FDA PIR-PP resins are available as natural, white, and black pellets. </li>
+                <li>Use of MDT FDA grades are approved for food contact articles, up to 100% recycled content. The FDA has approved these food grade resins for all Conditions of Use, A through J. Approved additives are allowed in our FDA grade resin materials. </li>
                 <li>These resins also carry certification by SCS Global Services as certified recycled content material. </li>
                 <li><strong>Certification</strong>: <a href="./assets/Cert - MDT Replas SCS.pdf"> SCS Certified </a></li>
               </ul>
-            </div>
+           </div>
         </div>
 
       </div>
     </section><!-- End Portfolio Details Section -->
 <!-- 
 Insert Resin Table -->
+<section>
 <div id="firstTable">
   <h4 class="tableTitle">Reprocessed Resins</h4>
       <div class="d-flex align-items-start actualTable" >
@@ -213,61 +201,59 @@ Insert Resin Table -->
       
   
   </div>
-        
+</section>    
   </main><!-- End #main -->
 
+
   <!-- ======= Footer ======= -->
-<footer id="footer">
+  <footer id="footer">
 
-  <div class="footer-top">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-3 col-md-6 footer-contact">
-          <br>
-          <h4>Material Difference Technologies</h4>
-        </div>
-
-        <div class="col-lg-3 col-md-6 footer-links">
-          <p>    <br>          
-            1401 Manatee Ave W #1015<br>
-            Bradenton, FL 34205<br>
-            United States 
-            </p>
-        </div>
-
-        <div class="col-lg-3 col-md-6 footer-links">
-          <p><br>
-          <strong>Phone:</strong> + 1 (888) 818-1283<br>
-          </p>
-        </div>
-        <div class="col-lg-3 col-md-6 footer-links">
-          <div class="social-links mt-3">
-            <!-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-            <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-            <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-            <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a> -->
-            <a href="https://www.linkedin.com/company/material-difference-technologies/" target="_blank" class="linkedin"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
-              <path d="M27.26 27.271h-4.733v-7.427c0-1.771-0.037-4.047-2.475-4.047-2.468 0-2.844 1.921-2.844 3.916v7.557h-4.739v-15.271h4.552v2.083h0.061c0.636-1.203 2.183-2.468 4.491-2.468 4.801 0 5.692 3.161 5.692 7.271v8.385zM7.115 9.912c-1.527 0-2.751-1.235-2.751-2.756 0-1.516 1.229-2.749 2.751-2.749s2.755 1.233 2.755 2.749c0 1.521-1.233 2.756-2.755 2.756zM9.489 27.271h-4.749v-15.271h4.749zM29.636 0h-27.276c-1.303 0-2.36 1.031-2.36 2.307v27.387c0 1.276 1.057 2.307 2.36 2.307h27.271c1.301 0 2.369-1.031 2.369-2.307v-27.387c0-1.276-1.068-2.307-2.369-2.307z"/>
-            </svg>
-            </a>
-            <a href="https://www.indeed.com/cmp/Material-Difference-Technologies" target="_blank" class="linkedin"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
-              <path d="M19.76 13.745c-3.197 1.64-6.776-1.417-5.661-4.833 1.12-3.417 5.813-3.767 7.423-0.552 1.005 1.973 0.219 4.389-1.761 5.389zM15.469 0.76c3.291-1.197 7.057-1.135 9.875 1.313 0.593 0.489 1.063 1.115 1.364 1.828 0.281 0.916-1-0.095-1.172-0.224-0.891-0.609-1.853-1.099-2.869-1.464-5.552-1.697-10.803 1.396-14.047 6.208-1.323 2.12-2.333 4.423-3 6.833-0.063 0.297-0.156 0.584-0.281 0.86-0.145 0.271-0.068-0.735-0.068-0.765 0.12-1.005 0.313-2.005 0.573-2.985 1.505-5.244 4.839-9.609 9.625-11.609zM15.516 28.755v-11.687c0.333 0.036 0.645 0.052 0.979 0.052 1.516 0.005 3-0.412 4.297-1.193v12.823c0 1.1-0.204 1.907-0.699 2.439-0.495 0.541-1.197 0.839-1.932 0.812-0.724 0.027-1.421-0.271-1.907-0.812-0.489-0.537-0.744-1.349-0.744-2.433z"/>
-            </svg></a>
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 footer-contact" style="text-align: left;">
+            <br>
+            <h4>Material Difference Technologies</h4>
           </div>
-        </div>
 
+          <div class="col-lg-3 col-md-6 footer-links" style="text-align: left;">
+            <p>    <br>          
+              1401 Manatee Ave W #1015<br>
+              Bradenton, FL 34205<br>
+              United States 
+              </p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links" style="text-align: left;">
+            <p><br>
+            <strong>Phone:</strong> + 1 (888) 818-1283<br>
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-links">
+            <div><br><h4>Follow us:</h4></div>
+            <div class="social-links mt-3"style="text-align: left;">
+              <a href="https://www.linkedin.com/company/material-difference-technologies/" target="_blank" class="linkedin"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                <path d="M27.26 27.271h-4.733v-7.427c0-1.771-0.037-4.047-2.475-4.047-2.468 0-2.844 1.921-2.844 3.916v7.557h-4.739v-15.271h4.552v2.083h0.061c0.636-1.203 2.183-2.468 4.491-2.468 4.801 0 5.692 3.161 5.692 7.271v8.385zM7.115 9.912c-1.527 0-2.751-1.235-2.751-2.756 0-1.516 1.229-2.749 2.751-2.749s2.755 1.233 2.755 2.749c0 1.521-1.233 2.756-2.755 2.756zM9.489 27.271h-4.749v-15.271h4.749zM29.636 0h-27.276c-1.303 0-2.36 1.031-2.36 2.307v27.387c0 1.276 1.057 2.307 2.36 2.307h27.271c1.301 0 2.369-1.031 2.369-2.307v-27.387c0-1.276-1.068-2.307-2.369-2.307z"/>
+              </svg>
+              </a>
+              <a href="https://www.indeed.com/cmp/Material-Difference-Technologies" target="_blank" class="linkedin"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                <path d="M19.76 13.745c-3.197 1.64-6.776-1.417-5.661-4.833 1.12-3.417 5.813-3.767 7.423-0.552 1.005 1.973 0.219 4.389-1.761 5.389zM15.469 0.76c3.291-1.197 7.057-1.135 9.875 1.313 0.593 0.489 1.063 1.115 1.364 1.828 0.281 0.916-1-0.095-1.172-0.224-0.891-0.609-1.853-1.099-2.869-1.464-5.552-1.697-10.803 1.396-14.047 6.208-1.323 2.12-2.333 4.423-3 6.833-0.063 0.297-0.156 0.584-0.281 0.86-0.145 0.271-0.068-0.735-0.068-0.765 0.12-1.005 0.313-2.005 0.573-2.985 1.505-5.244 4.839-9.609 9.625-11.609zM15.516 28.755v-11.687c0.333 0.036 0.645 0.052 0.979 0.052 1.516 0.005 3-0.412 4.297-1.193v12.823c0 1.1-0.204 1.907-0.699 2.439-0.495 0.541-1.197 0.839-1.932 0.812-0.724 0.027-1.421-0.271-1.907-0.812-0.489-0.537-0.744-1.349-0.744-2.433z"/>
+              </svg></a>
+            </div>
+          </div>
+
+        </div>
       </div>
     </div>
-  </div>
 
-  <div class="container py-4">
-    <div class="copyright">
-      &#174; Registered <strong><span>Material Difference Technologies</span></strong>. All Rights Reserved.
+    <div class="container py-3">
+      <div class="copyright">
+        &#174; Registered <strong><span>Material Difference Technologies</span></strong>. All Rights Reserved.
+      </div>
+      <p style="text-align:right;">1401 Manatee Ave W #1015 Bradenton, FL 34205</p>
+      </div>
     </div>
-    <p style="text-align:right;">1401 Manatee Ave W #1015 Bradenton, FL 34205</p>
-    </div>
-  </div>
-</footer><!-- End Footer -->
+  </footer><!-- End Footer -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 

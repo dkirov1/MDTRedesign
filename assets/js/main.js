@@ -155,7 +155,7 @@
   });
 
   /**
-   * Portfolio isotope and filter
+   * Porfolio isotope and filter
    */
   window.addEventListener('load', () => {
     let portfolioContainer = select('.portfolio-container');
@@ -196,11 +196,11 @@
    * Portfolio details slider
    */
   new Swiper('.portfolio-details-slider', {
-    speed: 400,
+    speed: 500,
     loop: true,
     autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
+      delay: 15000,
+      disableOnInteraction: true
     },
     pagination: {
       el: '.swiper-pagination',
@@ -208,7 +208,6 @@
       clickable: true
     }
   });
-
 
 
   /**

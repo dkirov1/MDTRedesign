@@ -52,7 +52,16 @@
         <ul>
           <li><a class="nav-link scrollto active" href="#carouselExampleCaptions">Home</a></li>
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto" href="#portfolio">Products</a></li>
+          <li class="dropdown"><a class="nav-link scrollto" href="#portfolio">Products<i class="bi bi-chevron-down"></i></a>
+          <ul>
+            <li><a href="TechResinPortfolio.html">MDT Tech Resin<sup>®</sup> Generic Prime resin</a></li>
+            <li><a href="WideSpecPortfolio.html">OG/Widespec</a></li>
+            <li><a href="PhoenixPortfolio.html">PhoenixPro PCR-PP Resin</a></li>
+            <li><a href="FDAPortfolio.html">PureOlene FDA food-grade Resin</a></li>
+            <li><a href="ReNewPortfolio.html">MDT ReNew PIR-PP</a></li>
+            <li><a href="OtherPortfolio.html">Other Resins</a></li>
+          </ul>
+        </li>
           <li><a class="nav-link scrollto" href="#team">Team</a></li>
           <li class="dropdown"><a class="nav-link scrollto" href="#about">Locations<i class="bi bi-chevron-down"></i></a>
             <ul>
@@ -61,23 +70,6 @@
               <li><a href="MDTBromley.html">MDT Bromley, North Carolina</a></li>
             </ul>
           </li>
-          <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li> -->
           <li><a href="Careers.html">Careers</a></li>
           <li><a class="getstarted scrollto" href="#contact">Get Started</a></li>
         </ul>
@@ -330,7 +322,7 @@
 
                 <br><br>Material R&D projects can help develop new compounded resin formulas for your product applications.
               
-                <br><br><span style="font-weight: bolder;">With two physical and analytical laboratories, MDT offers testing of:</span>
+                <br><br><span style="font-weight: 900;">With two physical and analytical laboratories, MDT offers testing of:</span>
                 <ul style="font-weight:lighter">
                   <li>Material characterization and certification</li>
                   <li>Melt flow index</li>
@@ -400,7 +392,7 @@
             <div id="popup-box9" class="modal">
               <div class="content">
                 <br>Both our MDT Replas and MDT Bromley facilities offer FDA food-grade approved resin materials. MDT has received verified PNC letters from the FDA’s Center for Food Safety and Applied Nutrition.
-                <br><br>FDA PIR-PP resins are available as natural, white, and black pellets.
+                <br><br>MDT PureOlene FDA Grade Certified PIR-PP resins are available as natural, white, and black pellets.
                 <br><br>Use of MDT FDA grades are approved for food contact articles, up to 100% recycled content. The FDA has approved these food grade resins for all Conditions of Use, A through J. Approved additives are allowed in our FDA grade resin materials.
                 <br><br>These resins also carry certification by SCS Global Services as certified recycled content material.
                   <a href="#services"
@@ -630,9 +622,9 @@
           <div class="col-lg-4 col-md-6 portfolio-item">
             <h5>Phoenix Pro PCR-PP resin</h5> 
             <div class="portfolio-wrap">
-              <img src="./assets/img/mc2.jpg" class="img-fluid" alt="">
+              <img src="./assets/img/widespec.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="./assets/img/mc2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Phoenix Pro PCR-PP resin"><i class="bi-zoom-in"></i></a>
+                <a href="./assets/img/widespec.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Phoenix Pro PCR-PP resin"><i class="bi-zoom-in"></i></a>
                 <a href="PhoenixPortfolio.html" title="More Details"><i class="bi-three-dots"></i></a>
               </div>
               <div class="portfolio-info">
@@ -644,9 +636,9 @@
           <div class="col-lg-4 col-md-6 portfolio-item">
             <h5>FDA Food-grade PIR-PP</h5>
             <div class="portfolio-wrap">
-              <img src="./assets/img/widespec.jpg" class="img-fluid" alt="">
+              <img src="./assets/img/FDAnatural1.jpeg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="./assets/img/widespec.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="FDA Food-grade PIR-PP"><i class="bi-zoom-in"></i></a>
+                <a href="./assets/img/FDAnatural1.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="FDA Food-grade PIR-PP"><i class="bi-zoom-in"></i></a>
                 <a href="FDAPortfolio.html" title="More Details"><i class="bi-three-dots"></i></a>
               </div>
               <div class="portfolio-info">
@@ -953,7 +945,8 @@
             </p>
           </div>
           <div class="col-lg-3 col-md-6 footer-links">
-            <div class="social-links mt-3"style="text-align: right;">
+            <div><br><h4>Follow us:</h4></div>
+            <div class="social-links mt-3"style="text-align: left;">
               <a href="https://www.linkedin.com/company/material-difference-technologies/" target="_blank" class="linkedin"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
                 <path d="M27.26 27.271h-4.733v-7.427c0-1.771-0.037-4.047-2.475-4.047-2.468 0-2.844 1.921-2.844 3.916v7.557h-4.739v-15.271h4.552v2.083h0.061c0.636-1.203 2.183-2.468 4.491-2.468 4.801 0 5.692 3.161 5.692 7.271v8.385zM7.115 9.912c-1.527 0-2.751-1.235-2.751-2.756 0-1.516 1.229-2.749 2.751-2.749s2.755 1.233 2.755 2.749c0 1.521-1.233 2.756-2.755 2.756zM9.489 27.271h-4.749v-15.271h4.749zM29.636 0h-27.276c-1.303 0-2.36 1.031-2.36 2.307v27.387c0 1.276 1.057 2.307 2.36 2.307h27.271c1.301 0 2.369-1.031 2.369-2.307v-27.387c0-1.276-1.068-2.307-2.369-2.307z"/>
               </svg>
@@ -968,7 +961,7 @@
       </div>
     </div>
 
-    <div class="container py-4">
+    <div class="container py-3">
       <div class="copyright">
         &#174; Registered <strong><span>Material Difference Technologies</span></strong>. All Rights Reserved.
       </div>
@@ -983,7 +976,7 @@
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <script async
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCOf4LGHbUTf9j0obd44i2Q_wlTZZyG9AE&callback=initMap">
