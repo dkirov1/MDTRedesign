@@ -472,12 +472,20 @@ background: linear-gradient( #000000, #8E3029)
 .carousel-text{
   text-shadow: 1px 1px 2px black, 0 0 .7em black;
   margin:0px;
+  width:90%;
+  left:5%;
 }
 
 .carousel-item{
   height: 85vh;
   z-index: 1;
 }
+
+.carousel-item img{
+  object-fit: cover;
+  height: 100%;
+}
+
 
 /*--------------------------------------------------------------
 # Hero Section
@@ -837,10 +845,6 @@ section {
 
 .portfolio .portfolio-item {
   margin-bottom: 30px;
-}
-
-.portfolio-item img{
-  height: 240px;
 }
 
 
