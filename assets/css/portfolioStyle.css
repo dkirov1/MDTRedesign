@@ -358,7 +358,6 @@ background: linear-gradient( #000000, #8E3029)
   cursor: pointer;
   display: none;
   transition: 0.5s;
-  right: 50px
 }
 
 .mobile-nav-toggle.bi-x {
@@ -468,6 +467,7 @@ background: linear-gradient( #000000, #8E3029)
 --------------------------------------------------------------*/
 section {
   padding: 40px 0px 0px 0px;
+  min-height: 100vh;
 }
 
 .section-bg {
@@ -717,7 +717,7 @@ section {
 }
 
 .portfolio-details .portfolio-details-slider img {
-  width: 100%;
+  min-width: 200px; 
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination {
@@ -869,6 +869,8 @@ margin-right:200px;
   #firstTable .productlist .product{
     padding: 20px; 
   }
+
+  
   .nav-pills .nav-link.active.arrow-pointer {
     width: 250px;
     height: 50px;

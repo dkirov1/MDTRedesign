@@ -356,7 +356,6 @@ background: linear-gradient( #000000, #8E3029)
   cursor: pointer;
   display: none;
   transition: 0.5s;
-  right: 50px
 }
 
 .mobile-nav-toggle.bi-x {
@@ -371,11 +370,14 @@ background: linear-gradient( #000000, #8E3029)
 
   .navbar ul {
     display: none;
-  }
+  } 
+}
 
-.header .logo img{
-  padding-left:100px;
-}  
+@media (max-width: 1000px){
+  #header .logo img{
+    margin-left: 70px;
+    
+  } 
 }
 
 .navbar-mobile {
@@ -746,15 +748,13 @@ section {
   width:100% 
 }
 .item {
-  padding: 20px;
+  padding: 5px;
   position: relative;
-  margin: 10px 10px 10px 10px;
+  margin: 10px 20px 10px 10px;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: rgba(22, 22, 22, 0.85);
   color:white; 
   width: auto;
-  border-right:solid 5px #8E3029;
-  border-bottom: 5px solid #8E3029;
   transition: all 500ms ease-in-out;
   box-shadow: 10px 10px 29px 0 rgba(14, 14, 14, 0.1);
   border-radius: 15px;
@@ -770,10 +770,12 @@ section {
 }
 
 .item:hover{
-  transform: scale(1.1);
+  transform: scale(1.05);
   transition: all 600ms ease-in-out;
   color: white;
   background-color: rgba(0, 0, 0, 1);
+  border-right:solid 5px #8E3029;
+  border-bottom: 5px solid #8E3029;
   }
 
 .serviceitems{
