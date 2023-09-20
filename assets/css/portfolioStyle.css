@@ -718,6 +718,7 @@ section {
 
 .portfolio-details .portfolio-details-slider img {
   min-width: 200px; 
+  object-fit: cover;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination {
