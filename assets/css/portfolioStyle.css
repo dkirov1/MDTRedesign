@@ -467,7 +467,7 @@ background: linear-gradient( #000000, #8E3029)
 --------------------------------------------------------------*/
 section {
   padding: 40px 0px 0px 0px;
-  min-height: 100vh;
+  min-height: 60vh;
 }
 
 .section-bg {
